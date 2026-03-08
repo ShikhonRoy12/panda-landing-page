@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header Styles */
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 200px;
+}
+/* hero section */
+.container-1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FEEAE9;
+    border-radius: 20px;
+    margin: 100px 200px;
+
+}
+.container-1 .title{
+    margin: 80px;
+}
+.container-1 .title h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    color: #000;
+}
+.container-1 .title p{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #4E4E4E;
+    margin: 20px 0;
+}
+.container-1 .title h2{
+    font-family: "Poppins";
+    font-size: 40px;
+    color: #FF136F;
+}
+.container-1 .title button{
+    padding: 10px 30px;
+    margin: 20px 0;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+    background-color: #FF136F;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+.tvimg{
+    margin: 30px;
+}
+/* Category Section */
+.category{
+    margin-left: 200px;
+}
+.category h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 30px;
+}
+.watch{
+    background-color: orange;
+    width: 600px;
+    height: 150px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.watch span{
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.watch img{
+    margin: 10px 10px;
+}
+
+.bag{
+    background-color: pink;
+    width: 600px;
+    height: 150px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.bag span{
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.bag img{
+    margin: 10px 10px;
+}
+
+.shoe{
+    background-color:blue;
+    width: 600px;
+    height: 150px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.shoe span{
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.shoe img{
+    margin: 10px 10px;
+}
+
+.categorysitem{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 100px;
+}
+ /* shoes Section */
+.card1{
+    width: 550px;
+    height: 650px;
+    border: #929292 solid 3px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px 10px;
+}
+.card1 h1{
+    font-family: "Poppins", sans-serif;
+    color: #1F1F1F;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.card1 p{
+    font-family: "Inter", sans-serif;
+    color: #4E4E4E;
+    font-size: 30px;
+}
+.card1 h2{
+    font-family: "Poppins";
+    margin: 20px;
+    font-size: 40px
+}
+.card1 button{
+    background-color: #000;
+    color: white;
+    padding: 20px 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 300px;
+    height: 100px;
+}
+
+.card2{
+    width: 550px;
+    height: 650px;
+    border: #929292 solid 3px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px 10px;
+}
+.card2 h1{
+    font-family: "Poppins", sans-serif;
+    color: #1F1F1F;
+    margin-bottom: 30px;
+}
+.card2 p{
+    font-family: "Inter", sans-serif;
+    color: #4E4E4E;
+    font-size: 30px;
+}
+.card2 h2{
+    font-family: "Poppins";
+    margin: 20px;
+    font-size: 40px
+}
+.card2 button{
+    background-color: #000;
+    color: white;
+    padding: 20px 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 300px;
+    height: 100px;
+}
+
+.card3{
+    width: 550px;
+    height: 650px;
+    border: #929292 solid 3px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px 10px;
+}
+.card3 h1{
+    font-family: "Poppins", sans-serif;
+    color: #1F1F1F;
+    margin-bottom: 30px;
+}
+.card3 p{
+    font-family: "Inter", sans-serif;
+    color: #4E4E4E;
+    font-size: 30px;
+}
+.card3 h2{
+    font-family: "Poppins";
+    margin: 20px;
+    font-size: 40px
+}
+.card3 button{
+    background-color: #000;
+    color: white;
+    padding: 20px 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 300px;
+    height: 100px;
+}
+
+.shoesection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 200px;
+}
+
+.shoesitem{
+    margin-left: 100px;
+}
+/* Backpack Section */
+.card4{
+    width: 550px;
+    height: 700px;
+    border: #929292 solid 3px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px 10px;
+}
+.card4 h1{
+    font-family: "Poppins", sans-serif;
+    color: #1F1F1F;
+    margin-bottom: 30px;
+}
+.card4 p{
+    font-family: "Inter", sans-serif;
+    color: #4E4E4E;
+    font-size: 30px;
+}
+.card4 h2{
+    font-family: "Poppins";
+    margin: 20px;
+    font-size: 40px
+}
+.card4 button{
+    background-color: #000;
+    color: white;
+    padding: 20px 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 300px;
+    height: 100px;
+}
+
+.card5{
+    width: 550px;
+    height: 700px;
+    border: #929292 solid 3px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px 10px;
+}
+.card5 h1{
+    font-family: "Poppins", sans-serif;
+    color: #1F1F1F;
+    margin-bottom: 30px;
+}
+.card5 p{
+    font-family: "Inter", sans-serif;
+    color: #4E4E4E;
+    font-size: 30px;
+}
+.card5 h2{
+    font-family: "Poppins";
+    margin: 20px;
+    font-size: 40px
+}
+.card5 button{
+    background-color: #000;
+    color: white;
+    padding: 20px 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 300px;
+    height: 100px;
+}
+
+.card6{
+    width: 550px;
+    height: 700px;
+    border: #929292 solid 3px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px 10px;
+}
+.card6 h1{
+    font-family: "Poppins", sans-serif;
+    color: #1F1F1F;
+    margin-bottom: 30px;
+}
+.card6 p{
+    font-family: "Inter", sans-serif;
+    color: #4E4E4E;
+    font-size: 30px;
+}
+.card6 h2{
+    font-family: "Poppins";
+    margin: 20px;
+    font-size: 40px
+}
+.card6 button{
+    background-color: #000;
+    color: white;
+    padding: 20px 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 300px;
+    height: 100px;
+}
+
+.Backpack{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 200px;
+    margin-bottom: 300px;
+}
+/* Footer */
+footer{
+    border: white solid 3px;
+    text-align: center;
+    width: 2100px;
+    height: 800px;
+    margin-left: 220px;
+    background-color: #FFF2F1;
+}
+
+.footer{
+    margin-top: 400px;
+}
+
+.footer h1{
+    font-family: "Poppins";
+    color: #1F1F1F;
+}
+.footer p{
+    font-family: "Poppins";
+    color: #707070;
+}
+
+.footer input{
+    width: 600px;
+    height: 70px;
+}
+
+.footer ::placeholder{
+    font-family: "Poppins";
+    color: #CCCCCC;
+    flex: 1;
+    border: none;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+.footer button{
+    background-color: #000;
+    color: white;
+    padding: 20px 50px;
+    font-size: 30px;
+    cursor: pointer;
+    width: 300px;
+    height: 70px;
+}
